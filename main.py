@@ -6,7 +6,7 @@ from aiogram.dispatcher import FSMContext
 from aiogram.dispatcher.filters import Text
 import sqlite3
 
-API_TOKEN = '1027107975:AAGHHW2D9AVBaadxALkn2z1Rh5YPdnEliKE'
+API_TOKEN = ''
 storage = MemoryStorage()
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot, storage=storage)
