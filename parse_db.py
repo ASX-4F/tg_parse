@@ -3,8 +3,8 @@ from pyrogram import Client
 from datetime import date
 from datetime import timedelta
 
-api_id = 1611714
-api_hash = '5c8a7780d6425c49d2e201d352839b99'
+api_id = 0
+api_hash = ''
 
 app = Client("my_account", api_id=api_id, api_hash=api_hash)
 
